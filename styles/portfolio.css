@@ -32,6 +32,13 @@
 .dark-1{
     color: #4E47FF;
 }
+
+.text-center{
+    text-align: center;
+}
+
+    
+
 /* Nav styles */
 nav{
     display: flex;
@@ -67,6 +74,7 @@ nav ul li{
 .header{
     background-image: url('../Assets/Hero-bg.png');
 }
+
 
 
 
@@ -113,8 +121,36 @@ nav ul li{
     border-radius: 15px;
 
 }
+/* skills section styles*/
+.skills-container{
+    display: flex;
+    gap: 30px;
+    
+}
 
-
-
-
-
+.skill{
+    padding: 30px;
+    
+}
+.text-primary{
+    font-weight: 700;
+    font-size: 70px;
+}
+.skill-description{
+    color: grey;
+    
+}
+.Productive{
+    background-color: #f5f8ff;
+    border-radius: 10px;
+    padding: 80px 50px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+main{
+    max-width: 1130px;
+    margin:0 auto;
+    margin-top: 80px;
+    margin-left right:293px;
+}
